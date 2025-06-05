@@ -2,7 +2,7 @@ import React from 'react'
 
 const Discripition = ({ content,myClass}) => {
   return (
-      <p className={`text-lg leading-[150%] text-black ${myClass}`}>{ content}</p>
+      <p className={` text-black ${myClass}`}>{ content}</p>
   )
 }
 
