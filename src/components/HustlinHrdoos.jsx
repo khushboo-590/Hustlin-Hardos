@@ -8,18 +8,13 @@ const HustlinHrdoos = () => {
             <div className="max-w-[1140px] w-full">
                 <Heading
                     title="THE HUSTLIN’ HARDOS."
-                    myClass="xl:text-large md:text-8xl sm:text-5xl text-4xl font-moderfb font-bold whitespace-nowrap text-center text-black  pt-[25px] leading-[100%]"
-                />
+                    myClass="xl:text-large md:text-8xl sm:text-5xl text-4xl font-moderfb font-bold whitespace-nowrap text-center text-black  pt-[25px] leading-[100%]"/>
             </div>
-
             <div className="border w-full"></div>
-
             <img
                 className="w-full pointer-events-none max-h-[476px] object-cover"
                 src={heroImg}
-                alt="hero image"
-            />
-
+                alt="hero image"/>
             <div className="border w-full mb-[67px]"></div>
         </div>
     );
