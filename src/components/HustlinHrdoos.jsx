@@ -15,7 +15,7 @@ const HustlinHrdoos = () => {
                 className="w-full pointer-events-none max-h-[476px] object-cover"
                 src={heroImg}
                 alt="hero image" />
-            <div className="border w-full mb-[67px]"></div>
+            <div className="border w-full lg:mb-[67px] md:mb-[30px] mb-[10px]"></div>
         </div>
     );
 };

@@ -25,3 +25,10 @@ export const latestTweets = [
         desc: "Vestibulum at gravida amet ullamcorper a ipsum laoreet tortor. Et tortor vel arcu ac.",
     },
 ];
+
+export const sateData = [
+    { title: "Etiam eget", value: 42 },
+    { title: "Tristique.", value: 42 },
+    { title: "Aliquet ac.", value: 42 },
+    { title: "Tincidunt.", value: 42 },
+];

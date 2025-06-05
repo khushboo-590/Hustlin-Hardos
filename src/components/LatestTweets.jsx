@@ -22,7 +22,7 @@ const LatestTweets = () => {
                     </div>
                 </div>
             </div>
-            <div className="border-y-2 border-solid border-black lg:mb-[88px] md:mb-[50px] mb-[10px] ">
+            <div className="border-y-2 border-solid border-black  ">
                 <div className="max-w-[1140px] max-xl:px-4 mx-auto border-l-2">
                     <Swiper
                         spaceBetween={0}
