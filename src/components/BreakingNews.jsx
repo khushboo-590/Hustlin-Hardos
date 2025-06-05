@@ -11,7 +11,7 @@ const BreakingNews = () => {
                     title='“BREAKING NEWS: Hustlin Hardos set to launch the most anticipated NFT project of 2022"'
                     myClass="  xl:text-7xl md:text-6xl sm:text-4xl text-2xl leading-[140%]  font-noto font-semibold justify-center items-center " /></div>
             <div className="border w-full"></div>
-            <div className="container lg:border-l-[2px] max-w-[1140px] px-3 mx-auto ">
+            <div className=" lg:border-l-[2px] max-w-[1140px] px-3 mx-auto ">
                 <div className="flex flex-wrap flex-row -mx-3 items-center">
                     <div className="px-4 lg:w-2/4 mx-auto lg:my-0 my-5 flex justify-center lg:py-[86px] py-5">
                         <div> <h4 className="text-base leading-[100%] text-black mb-4 font-noto">March 1, 2022 by Editor Hardo</h4>

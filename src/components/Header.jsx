@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-// import discordIcon from '../assets/images/svg/discord.svg';
-// import twitterIcon from '../assets/images/svg/twitter.svg';
-// import instagramIcon from '../assets/images/svg/instagram.svg';
-// import mediumIcon from '../assets/images/svg/m.svg';
-// import openseaIcon from '../assets/images/svg/ship.svg';
+import discordIcon from '../assets/images/svg/discord.svg';
+import twitterIcon from '../assets/images/svg/twitter.svg';
+import instagramIcon from '../assets/images/svg/insta.svg';
+import mediumIcon from '../assets/images/svg/m.svg';
+import openseaIcon from '../assets/images/svg/ship.svg';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -13,7 +13,7 @@ const Header = () => {
     };
 
     return (
-        <header className="py-2">
+        <div className="py-2 bg-[#F6F0E2]">
             <div className="container max-xl:px-4 max-w-[1140px] w-full mx-auto">
                 <div className="flex w-full justify-end items-center">
                     <div className="max-w-[658px] max-sm:flex w-full">
@@ -26,7 +26,7 @@ const Header = () => {
                   ${menuOpen ? 'max-sm:left-0' : 'max-sm:left-full'}
                   max-sm:z-40 max-sm:fixed max-sm:flex-col max-sm:w-full max-sm:h-full max-sm:justify-center max-sm:items-center max-sm:bg-white max-sm:top-0`}
                             >
-                                {/* <div className="flex gap-[18px] max-sm:flex-col max-sm:gap-4 items-center">
+                                <div className="flex gap-[18px] max-sm:flex-col max-sm:gap-4 items-center">
                                     <a href="https://discord.com/" target="_blank" rel="noopener noreferrer"
                                         className="flex size-6 justify-center items-center hover:scale-105 transition-all duration-300">
                                         <img src={discordIcon} alt="discord" />
@@ -47,7 +47,7 @@ const Header = () => {
                                         className="flex size-6 justify-center items-center hover:scale-105 transition-all duration-300">
                                         <img src={openseaIcon} alt="opensea" />
                                     </a>
-                                </div> */}
+                                </div>
                                 <button
                                     onClick={handleClick}
                                     className="py-[9.5px] px-[14.5px] box-border uppercase text-sm cursor-pointer transition-all hover:text-white duration-700 hover:shadow-[170px_0_0_0_#000_inset] font-semibold border-2 border-black bg-yellow text-black"
@@ -77,7 +77,7 @@ const Header = () => {
                 </div>
             </div>
 
-            {/* <div className="w-full mt-[7px] border-t-2 border-b-2 border-solid border-black">
+            <div className="w-full mt-[7px] border-t-2 border-b-2 border-solid border-black">
                 <div className="max-w-[561px] justify-center items-center flex mx-auto">
                     {['about', 'minting', 'roadmap', 'team', 'faq'].map((link, i) => (
                         <a
@@ -89,8 +89,8 @@ const Header = () => {
                         </a>
                     ))}
                 </div>
-            </div> */}
-        </header>
+            </div>
+        </div>
     );
 };
 

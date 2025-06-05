@@ -16,9 +16,9 @@ const LatestTweets = () => {
                     <Heading title="Latest Tweets" myClass="text-small max-sm:tracking-[-1px] lg:text-[80px] md:text-[60px] sm:text-[40px] text-[39px] uppercase leading-[104px] font-perpetua"/>
                     <div className="gap-[55px] items-center max-sm:gap-3 flex justify-center">
                         <button className="cursor-pointer  latest-prev">
-                            <img src={sliderArrow} alt="SliderArrow" className="max-sm:w-[15px] max-sm:h-[25px]" /></button>
+                            <img src={sliderArrow} alt="SliderArrow" className="max-sm:w-[15px] max-sm:h-[25px]"/></button>
                         <button className="cursor-pointer latest-next rotate-180">
-                            <img src={sliderArrow} alt="SliderArrow" className="max-sm:w-[15px] max-sm:h-[25px]" /></button>
+                            <img src={sliderArrow} alt="SliderArrow" className="max-sm:w-[15px] max-sm:h-[25px]"/></button>
                     </div>
                 </div>
             </div>

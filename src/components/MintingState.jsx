@@ -4,7 +4,7 @@ import { sateData } from '../utils/helper.'
 const MintingState = () => {
   return (
    
-      <div className="border-b-2 border-solid max-xl:px-4 border-black bg-[#F6F0E2] w-full mb-4 ">
+      <div className="border-b-2 border-solid max-xl:px-4 border-black bg-[#F6F0E2] w-full ">
               <div className="max-w-[832px]  justify-between gap-10 max-sm:gap-5 items-center flex flex-wrap mx-auto py-[21px]">
                   {sateData.map((obj, index) => (
                       <div key={index} className="flex flex-col gap-3">
