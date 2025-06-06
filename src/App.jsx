@@ -26,10 +26,10 @@ function App() {
       <Minting />
       <MintingState/>
       <Roadmap/> 
-      {/* <Team/>
+      <Team/>
       <Faqs />
       <Footer />
-      <BackToTop/> */}
+      <BackToTop/>
      
       
     </>

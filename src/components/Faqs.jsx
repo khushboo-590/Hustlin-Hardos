@@ -19,7 +19,7 @@ const Faqs = () => {
                     {faqsList.map((obj, index) => (
                         <div
                             key={index}
-                            className={`w-full px-8 pb-6 lg:px-6 md:px-4 g:pb-5 md:pb-3 border-black  border-b lg:py-4 py-1 `}>
+                            className={`w-full px-8 pb-6 lg:px-6 md:px-4 g:pb-5 md:pb-3 border-black  border-b-2 lg:py-4 py-1 `}>
                             <div onClick={() => toggleFaq(index)}
                                 className="flex justify-between items-center cursor-pointer pt-8 max-lg:pb-4 max-md:pt-5 max-md:pb-2">
                                 <p className="font-semibold text-2xl max-lg:text-xl max-md:text-lg max-sm:max-w-[280px] leading-tight">

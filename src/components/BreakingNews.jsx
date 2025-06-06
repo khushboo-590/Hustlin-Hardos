@@ -6,9 +6,9 @@ const BreakingNews = () => {
     return (
         <div id='about' className="">
             <div className="max-w-[1140px] px-4 mx-auto mb-4 sm:mb-16 lg:pt-[67px] md:pt-[40px] pt-[10px]">
-                <h2  className="font-normal leading-[140%] text-shadow text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
+                <h2 className="font-normal leading-[140%]  text-shadow text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
                     “BREAKING NEWS: Hustlin Hardos set to launch the most anticipated NFT project of 2022"</h2></div>
-            <div className="border-b border-black w-full"></div>
+            <div className="border-b-2 border-black w-full"></div>
             <div className="max-w-[1140px] mx-auto px-4 lg:border-l-2 border-black">
                 <div className="flex flex-wrap items-center -mx-3">
                     <div className="w-full lg:w-1/2 px-3 py-5 lg:py-[86px]">
@@ -21,11 +21,13 @@ const BreakingNews = () => {
                         <img
                             src={manImg}
                             alt="Man "
-                            className="w-full pointer-events-none  pb-5 lg:pb-0" /></div></div>
+                            className="w-full pointer-events-none  pb-5 lg:pb-0 lg:border-x-2 border-black" /></div></div>
             </div>
-            <div className="border-t border-black w-full"></div>
+            <div className="border-t-2 border-black w-full"></div>
         </div>
     );
 };
 
 export default BreakingNews;
+
+
