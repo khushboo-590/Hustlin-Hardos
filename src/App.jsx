@@ -12,6 +12,7 @@ import Faqs from './components/Faqs'
 import Footer from './components/footer'
 import Marque from './components/Marque'
 import Header from './components/Header'
+import BackToTop from './components/common/BackToTop'
 
 function App() {
 
@@ -24,10 +25,11 @@ function App() {
       <LatestTweets/>
       <Minting />
       <MintingState/>
-      <Roadmap/>
+      {/* <Roadmap/>
       <Team/>
       <Faqs />
-      <Footer />
+      <Footer /> */}
+      <BackToTop/>
      
       
     </>

@@ -6,7 +6,7 @@ const BreakingNews = () => {
     return (
         <section className="bg-[#F6F0E2] ">
             <div className="max-w-[1140px] px-4 mx-auto mb-6 sm:mb-16">
-                <h2 className="font-normal leading-[140%] text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
+                <h2 style={{ textShadow: "2px 2px 4px rgba(0,0,0,0.4)" }} className="font-normal leading-[140%] text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
                     “BREAKING NEWS: Hustlin Hardos set to launch the most anticipated NFT project of 2022"</h2></div>
             <div className="border-b border-black w-full"></div>
             <div className="max-w-[1140px] mx-auto px-4 lg:border-l-2 border-black">

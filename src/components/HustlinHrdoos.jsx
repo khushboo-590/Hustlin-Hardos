@@ -4,9 +4,10 @@ const HustlinHrdoos = () => {
     return (
         <div className="max-w-[1920px] mx-auto overflow-hidden ">
             <div className="px-4">
-                <h1 className="text-center font-modernofb font-normal leading-[100%] text-[40px] sm:text-6xl md:text-[80px] lg:text-[120px] !xl:text-[157px] pt-4 sm:pt-6 md:pt-8">
+                <h1 style={{ textShadow: "2px 2px 4px rgba(0,0,0,0.4)" }} className="text-center font-modernofb  font-normal leading-[100%] text-[40px] sm:text-6xl md:text-[80px] lg:text-[120px] !xl:text-[157px] pt-4 sm:pt-6 md:pt-8">
                     THE HUSTLIN’ HARDOS.
                 </h1>
+               
 
             </div>
             <img
