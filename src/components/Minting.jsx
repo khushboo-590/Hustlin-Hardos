@@ -12,12 +12,11 @@ const Minting = () => {
         if (count > 0) setCount(prev => prev - 1);
     };
     return (
-        <div id="minting" className='bg-[#F6F0E2]'>
+        <div id="minting" >
             <div className="max-w-[1140px] max-xl:px-4 py-[89.5px] max-lg:py-20 max-md:py-12 max-sm:py-10 mx-auto ">
                 <Heading
                     title="Minting"
-                    myClass="max-w-[1172px] px-4 mx-auto pb-[89px] max-xl:pb-[60px] max-lg:pb-10"
-                /></div>
+                    myClass="max-w-[1172px] px-4 mx-auto pb-[89px] max-xl:pb-[60px] max-lg:pb-10"/></div>
                 <div className="border-y-2 border-solid max-xl:px-4 border-black">
                     <div className="max-w-[1140px] max-lg:border-none mx-auto border-x-2 border-solid border-black container">
                         <div className="w-full flex justify-center max-lg:flex-col max-lg:py-5 max-lg:gap-3 items-center">
@@ -41,17 +40,11 @@ const Minting = () => {
                             <img
                                 src={manImg}
                                 alt="man-img"
-                                className="max-w-[570px] pointer-events-none max-lg:border-none max-lg:max-w-[unset] max-lg:w-full border-l-2 border-solid border-black"
-                            />
+                                className="max-w-[570px] pointer-events-none max-lg:border-none max-lg:max-w-[unset] max-lg:w-full border-l-2 border-solid border-black"     />
                         </div>
                     </div>
                 </div>
-            </div>
-
-    );
-};
-
+            </div>        
+        );
+    };
 export default Minting;
-
-
-

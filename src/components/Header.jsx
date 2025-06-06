@@ -7,7 +7,6 @@ import openseaIcon from '../assets/images/svg/ship.svg';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-
     const handleClick = () => {
         setMenuOpen(!menuOpen);
     };
@@ -18,9 +17,9 @@ const Header = () => {
                 <div className="flex w-full justify-end items-center">
                     <div className="max-w-[658px] max-sm:flex w-full">
                         <div className="w-full flex items-center justify-between">
-                            <a className="font-moderfb text-2xl max-md:text-xl" href="/">
+                            <p className="font-modernofb text-2xl max-md:text-xl" >
                                 Hustlin' Hardos
-                            </a>
+                            </p>
                              <div
                                 className={`flex gap-5 transition-all duration-300 items-center max-sm:gap-4 ${menuOpen ? 'max-sm:left-0' : 'max-sm:left-full'} max-sm:z-40 max-sm:fixed max-sm:flex-col max-sm:w-full max-sm:h-full max-sm:justify-center max-sm:items-center max-sm:bg-white max-sm:top-0`}>
                                 <div className="flex gap-[18px] max-sm:flex-col max-sm:gap-4 items-center"> 
@@ -47,7 +46,6 @@ const Header = () => {
                             <span className={`block w-6 h-1 bg-black transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-[8px]" : ""}`}
                             ></span>
                         </div>
-
                     </div>
                 </div>
             </div>
