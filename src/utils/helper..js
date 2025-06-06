@@ -35,8 +35,7 @@ export const sateData = [
     { title: "Tincidunt.", value: 42 },
 ];
 
-
-export const ROADMAP_LIST = [
+export const roadMap = [
     {
         phase: "Phase 1",
         title: "Community Building",
@@ -77,7 +76,8 @@ export const ROADMAP_LIST = [
         title: "Swapping Individual Attributes",
         description: "Building a wardrobe app where you can secondary sales",
     },
-  ];
+];
+  
 export const teamMembers = [
     {
         name: "Executive Hardo",
@@ -109,7 +109,7 @@ export const teamMembers = [
     },
 ];
  
-export const MARQUE_DATA_LIST = [
+export const marqueData = [
     { title: "S&P", value: "-1.01%", color: "text-custom-red" },
     { title: "Shanghai", value: "+0.87%", color: "text-custom-yellow" },
     { title: "FTSE 100", value: "+0.13%", color: "text-custom-yellow" },
@@ -128,13 +128,12 @@ export const MARQUE_DATA_LIST = [
     { title: "Euro/Dollar", value: "+0.02%", color: "text-custom-yellow" },
 ];
   
-export const FAQ_LIST = [
-    "What is an NFT?",
-    "How do I get an NFT?",
-    "How much is a Hustlin' Hardo NFT?",
-    "Where can I mint a Hustlin' Hardos NFT?",
-    "How do I mint a Hustlin' Hardo NFT?",
-    "How many Hustlin' Hardos NFTs will there be?",
-    "What is the utility and functionality of a Hustlin' Hardo NFT?",
+export const faqsList = [
+    { title: "What is an NFT?" },
+    { title: "How much is a Hustlin' Hardo NFT?" },
+    { title: "Where can I mint a Hustlin' Hardos NFT?" },
+    { title: "How do I mint a Hustlin' Hardo NFT?" },
+    { title: "How many Hustlin' Hardos NFTs will there be?", },
+    { title: "What is the utility and functionality of a Hustlin' Hardo NFT?" },
 ];
   

@@ -17,17 +17,17 @@ function App() {
 
   return (
     <>
-       {/* <Marque /> */}
+       <Marque />
       <Header/>
       <HustlinHrdoos />
       <BreakingNews />
-      {/* <LatestTweets/> */}
-      {/* <Minting />
-      <MintingState/> */}
+      <LatestTweets/>
+      <Minting />
+      <MintingState/>
       <Roadmap/>
-      {/* <Team/>
+      <Team/>
       <Faqs />
-      <Footer /> */}
+      <Footer />
      
       
     </>
