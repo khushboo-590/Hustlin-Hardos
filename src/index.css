@@ -32,7 +32,7 @@ body {
   font-family: "Noto Serif", serif;
 }
 
-@keyframes topbar {
+@keyframes marquee {
   0% {
     transform: translateX(0);
   }
@@ -42,17 +42,12 @@ body {
   }
 }
 
-.topbar-animation {
-  animation: topbar 24s linear infinite;
-  display: flex;
-  width: fit-content;
-  animation-play-state: running;
+.animate-marquee {
+  animation: marquee 24s linear infinite;
+    display: flex;
+    width: fit-content;
+    animation-play-state: running;
 }
-
-.topbar-animation:hover {
-  animation-play-state: paused;
-}
-
 .roadmap-arrow::after {
   position: absolute;
   content: "";

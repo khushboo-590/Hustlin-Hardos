@@ -1,9 +1,9 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
-import sliderArrow from '../assets/images/svg/silde-arrow.svg';
 import "swiper/css";
 import "swiper/css/navigation";
+import { Navigation } from "swiper/modules";
+import sliderArrow from '../assets/images/svg/silde-arrow.svg';
 import { teamMembers } from '../utils/helper.'
 import Discripition from "./common/Discripition";
 import Heading from "./common/Heading";
@@ -18,17 +18,12 @@ const Team = () => {
                         <img
                             className="max-sm:w-[17px] max-sm:h-[30px]"
                             src={sliderArrow}
-                            alt="SliderArrow"
-                        />
-                    </button>
+                            alt="SliderArrow" /></button>
                     <button className="cursor-pointer team-next rotate-180">
                         <img
                             className="max-sm:w-[17px] max-sm:h-[30px]"
                             src={sliderArrow}
-                            alt="SliderArrow"
-                        />
-                    </button>
-                </div>
+                            alt="SliderArrow" /></button></div>
             </div>
             <div className="border-y-2 border-solid border-black">
                 <div className="max-w-[1140px] max-xl:px-4 mx-auto border-l-2">
@@ -47,12 +42,9 @@ const Team = () => {
                                 className="swiper-slide border-r-2 border-solid min-h-[326px] border-black bg-[url('./assets/images/png/bg-team-img.png')] pt-[56px]">
                                 <div className="!flex gap-4 flex-col justify-center items-center">
                                     <img src={obj.image} alt="profile" />
-                                    <p className={`text-4xl  max-lg:text-3xl text-center text-[#70675F] font-black max-md:text-2xl`}>
-                                        {obj.name}</p>
-                                    < Discripition
-                                        content={obj.description}
-                                        myClass="max-w-[407px] mx-auto text-center max-md:text-sm text-black"
-                                    />                                 </div>                             </SwiperSlide>))}
+                                    <p className={`text-4xl  max-lg:text-3xl text-center text-[#70675F] font-black max-md:text-2xl`}>{obj.name}</p>
+                                    < Discripition content={obj.description} myClass="max-w-[407px] mx-auto text-center max-md:text-sm text-black" /></div>
+                            </SwiperSlide>))}
                     </Swiper>
                 </div>
             </div>
@@ -61,8 +53,5 @@ const Team = () => {
 };
 
 export default Team;
-
-
-
 
 
