@@ -1,10 +1,9 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap");
 @import "tailwindcss";
 
 @font-face {
   font-family: "modernofb";
-  src: url("/assets/fonts/modernofbcomp-bold.otf");
+  src: url("./assets/font/modernofbcomp-bold.otf");
 }
 
 @theme {
@@ -16,6 +15,7 @@
   --color-custom-blue: #55acee;
 }
 
+
 .font-modernofb {
   font-family: "modernofb";
 }
@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  background-image: url("assets/images/png/bg-image.webp");
+  background-image: url("./assets/images/png/bg-image.webp");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Noto Serif", serif;
@@ -44,10 +44,11 @@ body {
 
 .animate-marquee {
   animation: marquee 24s linear infinite;
-    display: flex;
-    width: fit-content;
-    animation-play-state: running;
+  display: flex;
+  width: fit-content;
+  animation-play-state: running;
 }
+
 .roadmap-arrow::after {
   position: absolute;
   content: "";
@@ -68,4 +69,8 @@ body {
   left: -7.3px;
   transform: rotate(45deg) translateY(-1px);
   background-color: black;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }

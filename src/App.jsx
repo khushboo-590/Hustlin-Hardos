@@ -18,18 +18,18 @@ function App() {
 
   return (
     <>
-       {/* <Marque /> */}
+       <Marque />
       <Header/>
       <HustlinHrdoos />
       <BreakingNews />
       <LatestTweets/>
       <Minting />
       <MintingState/>
-      <Roadmap/>
-      <Team/>
-      {/* <Faqs />
-      <Footer /> */}
-      <BackToTop/>
+      {/* <Roadmap/> */}
+      {/* <Team/>
+      <Faqs />
+      <Footer />
+      <BackToTop/> */}
      
       
     </>
