@@ -137,3 +137,12 @@ export const faqsList = [
     { title: "What is the utility and functionality of a Hustlin' Hardo NFT?" },
 ];
   
+
+ export const navLinks = [
+    { title: 'about us', link: 'about' },
+    { title: 'minting', link: 'minting' },
+    { title: 'roadmap', link: 'roadmap' },
+    { title: 'team', link: 'team' },
+    { title: 'faq', link: 'faq' },
+];
+  

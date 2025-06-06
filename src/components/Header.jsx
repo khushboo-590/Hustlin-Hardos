@@ -4,11 +4,14 @@ import twitterIcon from '../assets/images/svg/twitter.svg';
 import instagramIcon from '../assets/images/svg/insta.svg';
 import mediumIcon from '../assets/images/svg/m.svg';
 import openseaIcon from '../assets/images/svg/ship.svg';
+import { navLinks } from '../utils/helper.';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const handleClick = () => {
         setMenuOpen(!menuOpen);
+        document.body.classList.toggle("overflow-hidden", !menuOpen);
+
     };
 
     return (
@@ -50,14 +53,13 @@ const Header = () => {
                 </div>
             </div>
             <div className="w-full mt-[7px] border-t-2 border-b-2 border-solid border-black">
-                <div className="max-w-[561px] justify-center items-center flex mx-auto">
-                    {['about us', 'minting', 'roadmap', 'team', 'faq'].map((link, index) => (
+                <div className="max-w-[561px] mx-auto flex justify-center items-center ">
+                    {navLinks.map((obj, index) => (
                         <a
                             key={index}
-                            className="px-6 border-x-2 uppercase hover:bg-black hover:text-white transition-all duration-300 whitespace-nowrap max-md:text-sm max-sm:text-xs border-solid py-[7px] max-sm:py-1 max-sm:px-2 border-black"
-                            href={`#${link}`}
-                        >
-                            {link} 
+                            href={`#${obj.link}`}
+                            className="px-6 border-x-2 uppercase hover:bg-black hover:text-white transition-all duration-300 whitespace-nowrap max-md:text-sm max-sm:text-xs border-black py-[7px] max-sm:py-1 max-sm:px-2  text-black">
+                            {obj.title}
                         </a>
                     ))}
                 </div>
