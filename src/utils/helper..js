@@ -1,4 +1,3 @@
-
 import teamImg from '../assets/images/png/team-img.png'
 
 export const latestTweets = [
@@ -37,60 +36,48 @@ export const sateData = [
 ];
 
 
-
-
-
- export const roadmapData = [
+export const ROADMAP_LIST = [
     {
         phase: "Phase 1",
         title: "Community Building",
-        description:"The concept of Hustlin’ Hardos was born a few short weeks ago and we’re currently focused on the most important aspect of the project - COMMUNITY. We are organizing giveaways and events to spread the word around what will be one of the most exciting NFT projects so far. We also aim to reward those driving early engagement for the project in the form of white-list and pre-sale access to the official Hustlin’ Hardo drop. Join us on our Discord channel to see what we are all about!",
-        align: "left",
+        description: "The concept of Hustlin’ Hardos was born a few short weeks ago and we’re currently focused on the most important aspect of the project - COMMUNITY. We are organizing giveaways and events to spread the word around what will be one of the most exciting NFT projects so far. We also aim to reward those driving early engagement for the project in the form of white-list and pre-sale access to the official Hustlin’ Hardo drop. Join us on our Discord channel to see what we are all about!",
     },
     {
         phase: "Phase 2",
         title: "Minting Event",
-        description:"Hustlin’ Hardos can be minted and are revealed to the world. There will only ever be 9,999 Hustlin’ Hardos, so this is your chance to get your hands on this unique collectible item, which will become an integral part of your online identity.",
-        align: "right",
+        description: "Hustlin’ Hardos can be minted and are revealed to the world. There will only ever be 9,999 Hustlin’ Hardos, so this is your chance to get your hands on this unique collectible item, which will become an integral part of your online identity",
     },
     {
         phase: "Phase 3",
-        title: "Real-Life Raffles",
-        description:"We will be raffling real-life versions of some of the luxury items worn by Hustlin’ Hardos. For example, one week after the minting event is sold out, we will raffle a Rolex GMT “Batman” among the lucky holders of Hustlin' Hardos wearing that specific watch - so be on the lookout for characters who hold items you would like to own. Each month, we will announce another similar raffle, where Hustlin’ Hardos will get the chance to win items worn by their favorite NFTs ",
-        align: "left",
+        title: "Real-life Raffles",
+        description: "We will be raffling real-life versions of some of the luxury items worn by Hustlin’ Hardos. For example, one week after the minting event is sold out, we will raffle a Rolex GMT “Batman” among the lucky holders of Hustlin' Hardos wearing that specific watch - so be on the lookout for characters who hold items you would like to own. Each month, we will announce another similar raffle, where Hustlin’ Hardos will get the chance to win items worn by their favorite NFTs ",
     },
     {
         phase: "Phase 4",
         title: "No-Loss Gambling",
-        description:"Each week, we will organize free to enter no-loss gambling, with 25% of royalties being distributed as prize pool in events such as marble races or blackjack/poker tournaments. Imagine being able to bet on your Hustlin’ Hardo in a virtual foot race against your friend’s hardos. Since those events are free to enter, you can’t lose anything - but you can win BIG!",
-        align: "right",
+        description: "Each week, we will organize free to enter no-loss gambling, with 25% of royalties being distributed as prize pool in events such as marble races or blackjack/poker tournaments. Imagine being able to bet on your Hustlin’ Hardo in a virtual foot race against your friend’s hardos. Since those events are free to enter, you can’t lose anything - but you can win BIG!",
     },
     {
         phase: "Phase 5",
         title: "Hustlin’ Hardettes",
-        description:"The ethos of Hustlin’ Hardos is to create an authentic and inclusive community where we would celebrate the quirky nature of the finance world. With that objective in mind, we will also launch a brand now collection to celebrate the Hardettes who are an integral part of this community.",
-        align: "left",
+        description: "The ethos of Hustlin’ Hardos is to create an authentic and inclusive community where we would celebrate the quirky nature of the finance world. With that objective in mind, we will also launch a brand now collection to celebrate the Hardettes who are an integral part of this community.",
     },
     {
         phase: "Phase 6",
         title: "Metaverse Integrations",
-        description:"Both our personal and professional lives are increasingly moving online. Your Huslin’ Hardo will become your gateway to this new reality, acting as your 3D avatar in the metaverse",
-        align: "right",
+        description: "Both our personal and professional lives are increasingly moving online. Your Huslin’ Hardo will become your gateway to this new reality, acting as your 3D avatar in the metaverse",
     },
     {
         phase: "Phase 7",
         title: "Future Developments",
-         description: "It wouldn’t make sense to build one of the best online communities and not actively listen to its suggestions.As such, we also plan to execute against some community- generated ideas, delivering against the priorities of those who made Hustlin’ Hardos a success",
-        align: "left",
+        description: "It wouldn’t make sense to build one of the best online communities and not actively listen to its suggestions. As such, we also plan to execute against some community-generated ideas, delivering against the priorities of those who made Hustlin’ Hardos a success",
     },
     {
         phase: "Phase 8",
         title: "Swapping Individual Attributes",
-        description:"Building a wardrobe app where you can handle secondary sales.",
-        align: "right",
+        description: "Building a wardrobe app where you can secondary sales",
     },
-];
-
+  ];
 export const teamMembers = [
     {
         name: "Executive Hardo",
@@ -121,47 +108,33 @@ export const teamMembers = [
         textColor: "text-gray",
     },
 ];
-
-
-export const faqs = [
-    {
-        question: "What is an NFT?",
-        answer: `NFT stands for “Non-fungible token,” which means that it’s a unique, digital item with blockchain-managed ownership that users can buy, own, and trade. Some NFT’s fundamental function is to be digital art. But they can also offer additional benefits like exclusive access to websites, event tickets, game items, and ownership records for physical objects. Think of it as a unique piece of art that can also work as a “members-only” card. Hustlin' Hardos works like this.`,
-    },
-    {
-        question: "How do I get an NFT?",
-        answer: `NFT stands for “Non-fungible token,” which means that it’s a unique, digital item...`,
-    },
-    {
-        question: "How much is a Hustlin' Hardo NFT?",
-        answer: `NFT stands for “Non-fungible token,” which means that it’s a unique, digital item...`,
-    },
-    {
-        question: "Where can I mint a Hustlin' Hardos NFT?",
-        answer: `NFT stands for “Non-fungible token,” which means that it’s a unique, digital item...`,
-    },
-    {
-        question: "How do I mint a Hustlin' Hardo NFT?",
-        answer: `NFT stands for “Non-fungible token,” which means that it’s a unique, digital item...`,
-    },
-    {
-        question: "How many Hustlin' Hardos NFTs will there be?",
-        answer: `NFT stands for “Non-fungible token,” which means that it’s a unique, digital item...`,
-    },
-    {
-        question: "What is the utility and functionality of a Hustlin' Hardo NFT?",
-        answer: `NFT stands for “Non-fungible token,” which means that it’s a unique, digital item...`,
-    },
+ 
+export const MARQUE_DATA_LIST = [
+    { title: "S&P", value: "-1.01%", color: "text-custom-red" },
+    { title: "Shanghai", value: "+0.87%", color: "text-custom-yellow" },
+    { title: "FTSE 100", value: "+0.13%", color: "text-custom-yellow" },
+    { title: "ASD 100", value: "+0.13%", color: "text-custom-yellow" },
+    { title: "Brent Crude Oil", value: "-0.24%", color: "text-custom-red" },
+    { title: "DSC", value: "-0.24%", color: "text-custom-red" },
+    { title: "AXD 100", value: "+0.13%", color: "text-custom-yellow" },
+    { title: "Euro/Dollar", value: "+0.02%", color: "text-custom-yellow" },
+    { title: "S&P", value: "-1.01%", color: "text-custom-red" },
+    { title: "Shanghai", value: "+0.87%", color: "text-custom-yellow" },
+    { title: "FTSE 100", value: "+0.13%", color: "text-custom-yellow" },
+    { title: "ASD 100", value: "+0.13%", color: "text-custom-yellow" },
+    { title: "Brent Crude Oil", value: "-0.24%", color: "text-custom-red" },
+    { title: "DSC", value: "-0.24%", color: "text-custom-red" },
+    { title: "AXD 100", value: "+0.13%", color: "text-custom-yellow" },
+    { title: "Euro/Dollar", value: "+0.02%", color: "text-custom-yellow" },
 ];
   
-
-export const marquetData = [
-    { name: 'S&P', change: '-1.01%', color: 'red' },
-    { name: 'Shanghai', change: '+0.87%', color: 'yellow' },
-    { name: 'FTSE 100', change: '+0.13%', color: 'yellow' },
-    { name: 'ASD 100', change: '+0.13%', color: 'yellow' },
-    { name: 'Brent Crude Oil', change: '-0.24%', color: 'orange' },
-    { name: 'DSC', change: '-0.24%', color: 'orange' },
-    { name: 'AXD 100', change: '+0.13%', color: 'yellow' },
-    { name: 'Euro/Doller', change: '+0.03%', color: 'yellow' },
+export const FAQ_LIST = [
+    "What is an NFT?",
+    "How do I get an NFT?",
+    "How much is a Hustlin' Hardo NFT?",
+    "Where can I mint a Hustlin' Hardos NFT?",
+    "How do I mint a Hustlin' Hardo NFT?",
+    "How many Hustlin' Hardos NFTs will there be?",
+    "What is the utility and functionality of a Hustlin' Hardo NFT?",
 ];
+  

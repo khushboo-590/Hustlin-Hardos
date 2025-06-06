@@ -1,21 +1,19 @@
-import React from 'react';
 import heroImg from '../assets/images/png/hero-img.png'
-
+import React from "react";
 const HustlinHrdoos = () => {
     return (
-        <div className="flex items-center justify-center flex-col bg-[#F6F0E2]">
-            <div className="max-w-[1140px] w-full">
-                <h1 className="xl:text-large md:text-8xl sm:text-5xl text-4xl font-moderfb font-bold whitespace-nowrap text-center text-black pt-[25px] leading-[100%]">
+        <div className="max-w-[1920px] mx-auto overflow-hidden ">
+            <div className="px-4">
+                <h1 className="text-center font-modernofb font-normal leading-[100%] text-[40px] sm:text-6xl md:text-[80px] lg:text-[120px] !xl:text-[157px] pt-4 sm:pt-6 md:pt-8">
                     THE HUSTLIN’ HARDOS.
                 </h1>
 
             </div>
-            <div className="border w-full"></div>
             <img
-                className="w-full pointer-events-none max-h-[476px] object-cover"
-                src={heroImg}
-                alt="hero image" />
-            <div className="border w-full lg:mb-[67px] md:mb-[30px] mb-[10px]"></div>
+                            src={heroImg}
+                            alt="hero image"
+                className="w-full border-t-2 border-b-2 border-black object-cover pointer-events-none"
+            />
         </div>
     );
 };

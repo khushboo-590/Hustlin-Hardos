@@ -1,55 +1,64 @@
 import React, { useState } from "react";
-import { faqs } from "../utils/helper."
+import { FAQ_LIST } from "../utils/helper.";
+import plus from '../assets/images/svg/plus.svg'
+import minus from '../assets/images/svg/minus.svg'
 import Heading from "./common/Heading";
 
 const Faqs = () => {
-    const [openIndex, setOpenIndex] = useState(null);
-
-    const toggleAccordion = (index) => {
-        setOpenIndex(openIndex === index ? null : index);
+    const [open, setOpen] = useState(0);
+    const faqHandler = (index) => {
+        setOpen(open === index ? null : index);
     };
-
     return (
-        <section id="faq" className="w-full bg-[#F6F0E2]">
-            <div className="w-full">
-                <div className="max-w-[1140px] mx-auto container">
-                    <div className="max-w-[1140px] max-xl:px-4 py-[89.5px] max-lg:py-20 max-md:py-14 max-sm:py-10 mx-auto container">
-                        <Heading myClass="lg:text-[80px] md:text-[60px] sm:text-[40px] text-[39px] leading-[104%] font-noto" title="Faqs" />
-                    </div>
-                </div>
+        <div id="faq">
+            <div className="max-w-[1172px] px-4 mx-auto pt-22 pb-[89px] max-xl:py-[60px] max-lg:py-10">
+                <Heading title="Faqs" />
             </div>
-
-            <div className="border-y-2 max-xl:px-4 border-solid border-black">
-                <div className="max-w-[1140px] mx-auto container border-x-2 border-solid border-black">
-                    <div className="w-full">
-                        {faqs.map((item, index) => (
+            <div className="border-y-2 border-black px-4">
+                <div className="max-w-[1140px] mx-auto border-x-2 border-black">
+                    {FAQ_LIST.map((obj, index) => (
+                        <div
+                            key={index}
+                            className={`w-full px-[30px] pb-[26px] max-lg:px-6 max-lg:pb-5 max-md:pb-3 max-md:px-4 border-black ${index === 6 ? "border-0" : "border-b-2"
+                                }`}
+                        >
                             <div
-                                key={index}
-                                className="border-b-2 border-black p-[15px] sm:px-[30px] sm:pt-6 sm:pb-[20px] md:pt-8 md:pb-[27px] md:pr-[44px]"
+                                onClick={() => faqHandler(index)}
+                                className="flex items-center justify-between cursor-pointer w-full pt-8 max-lg:pb-4 max-md:pt-5 max-md:pb-2"
                             >
-                                <button
-                                    onClick={() => toggleAccordion(index)}
-                                    className="w-full flex justify-between cursor-pointer font-semibold items-center text-start leading-[100%] text-black text-2xl max-md:text-xl max-sm:text-lg accordin-button"
-                                >
-                                    <span>{item.question}</span>
-                                    <span
-                                        className={`min-w-2 min-h-0.5 bg-black relative after:absolute after:w-full after:h-full after:bg-black after:transition-all after:duration-300 ${openIndex === index ? "after:rotate-0" : "after:rotate-90"
-                                            }`}
-                                    ></span>
-                                </button>
-                                <p
-                                    className={`text-base leading-[150%] overflow-hidden transition-all duration-300 accordin-data max-w-[992px] pt-4 ${openIndex === index ? "max-h-[1000px]" : "max-h-0"
+                                <p className="leading-[100%] font-semibold text-2xl max-sm:leading-[120%] max-lg:text-xl max-md:text-lg max-[500px]:max-w-[280px]">
+                                    {obj}
+                                </p>
+                                <span
+                                    className={`transtion-all duration-300 ease-linear ${open === index ? "rotate-180" : "rotate-90"
                                         }`}
                                 >
-                                    {item.answer}
+                                    {open === index ? <img src={minus } /> : <img src={plus } />}
+                                </span>
+                            </div>
+                            <div
+                                className={`transtition-all duration-400 ease-linear pt-4 max-xl:pt-0 overflow-hidden max-xl:overflow-y-auto ${open === index ? "max-h-[160px]" : "max-h-0"
+                                    }`}
+                            >
+                                <p className="leading-[150%] max-md:text-sm">
+                                    NFT stands for “Non-fungible token,” which means that it’s a
+                                    unique, digital item with blockchain-managed ownership that
+                                    users can buy, own, and trade. Some NFT’s fundamental function
+                                    is to be digital art. But they can also offer additional
+                                    benefits like exclusive access to websites, event tickets,
+                                    game items, and ownership records for physical objects. Think
+                                    of it as a unique piece of art that can also work as a
+                                    “members-only” card. Hustlin' Hardos works like this
                                 </p>
                             </div>
-                        ))}
-                    </div>
+                        </div>
+                    ))}
                 </div>
             </div>
-        </section>
+           
+        </div>
     );
 };
 
 export default Faqs;
+

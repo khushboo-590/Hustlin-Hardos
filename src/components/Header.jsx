@@ -13,85 +13,74 @@ const Header = () => {
     };
 
     return (
-        <div className="py-2 bg-[#F6F0E2]">
+        <div className="py-2 ">
             <div className="container max-xl:px-4 max-w-[1140px] w-full mx-auto">
                 <div className="flex w-full justify-end items-center">
                     <div className="max-w-[658px] max-sm:flex w-full">
                         <div className="w-full flex items-center justify-between">
-                            <a className="ff-moderfb text-2xl max-md:text-xl" href="/">
+                            <a className="font-moderfb text-2xl max-md:text-xl" href="/">
                                 Hustlin' Hardos
                             </a>
-                            <div
-                                className={`flex gap-5 transition-all duration-300 items-center max-sm:gap-4 
-                  ${menuOpen ? 'max-sm:left-0' : 'max-sm:left-full'}
-                  max-sm:z-40 max-sm:fixed max-sm:flex-col max-sm:w-full max-sm:h-full max-sm:justify-center max-sm:items-center max-sm:bg-white max-sm:top-0`}
-                            >
-                                <div className="flex gap-[18px] max-sm:flex-col max-sm:gap-4 items-center">
-                                    <a href="https://discord.com/" target="_blank" rel="noopener noreferrer"
-                                        className="flex size-6 justify-center items-center hover:scale-105 transition-all duration-300">
-                                        <img src={discordIcon} alt="discord" />
-                                    </a>
-                                    <a href="https://x.com/HustlinHardos" target="_blank" rel="noopener noreferrer"
-                                        className="flex size-6 justify-center items-center hover:scale-105 transition-all duration-300">
-                                        <img src={twitterIcon} alt="twitter" />
-                                    </a>
-                                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
-                                        className="flex size-6 justify-center items-center hover:scale-105 transition-all duration-300">
-                                        <img src={instagramIcon} alt="instagram" />
-                                    </a>
-                                    <a href="https://medium.com/" target="_blank" rel="noopener noreferrer"
-                                        className="flex size-6 justify-center items-center hover:scale-105 transition-all duration-300">
-                                        <img src={mediumIcon} alt="medium" />
-                                    </a>
-                                    <a href="https://opensea.io/" target="_blank" rel="noopener noreferrer"
-                                        className="flex size-6 justify-center items-center hover:scale-105 transition-all duration-300">
-                                        <img src={openseaIcon} alt="opensea" />
-                                    </a>
+                             <div
+                                className={`flex gap-5 transition-all duration-300 items-center max-sm:gap-4 ${menuOpen ? 'max-sm:left-0' : 'max-sm:left-full'} max-sm:z-40 max-sm:fixed max-sm:flex-col max-sm:w-full max-sm:h-full max-sm:justify-center max-sm:items-center max-sm:bg-white max-sm:top-0`}>
+                                <div className="flex gap-[18px] max-sm:flex-col max-sm:gap-4 items-center"> 
+                                    {[discordIcon, twitterIcon, instagramIcon, mediumIcon, openseaIcon].map((icon, index) => (
+                                        <a
+                                            key={index}
+                                            href="/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex size-6 justify-center items-center hover:scale-105 transition duration-300">
+                                            <img src={icon} alt="icon" /></a>))}
                                 </div>
                                 <button
-                                    onClick={handleClick}
-                                    className="py-[9.5px] px-[14.5px] box-border uppercase text-sm cursor-pointer transition-all hover:text-white duration-700 hover:shadow-[170px_0_0_0_#000_inset] font-semibold border-2 border-black bg-yellow text-black"
-                                >
+                                    className="px-4 py-2 uppercase text-sm font-semibold border border-black bg-yellow-400 text-black hover:text-white hover:bg-black transition duration-300 cursor-pointer">
                                     Connect Wallet
                                 </button>
                             </div>
                         </div>
-                        <button
-                            onClick={handleClick}
-                            className="sm:hidden relative z-50 overflow-hidden w-8 h-6 flex justify-between flex-col"
-                        >
-                            <span
-                                id="toggle-line-1"
-                                className="flex w-8 bg-black h-1 transition-all duration-300 rounded-md"
+                        <div onClick={handleClick} className="sm:hidden cursor-pointer z-50 flex flex-col gap-1">
+                            <span className={`bg-black block w-6 h-1 transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-[8px]" : ""}`}
                             ></span>
-                            <span
-                                id="toggle-line-2"
-                                className="flex w-8 bg-black h-1 transition-all duration-300 rounded-md relative after:absolute after:w-full after:rounded-md after:h-full after:left-0 after:top-0 after:bg-black after:transition-all after:duration-300"
+                            <span className={`block w-6 h-1 bg-black transition-all duration-300 ${menuOpen ? "opacity-0" : ""}`}
                             ></span>
-                            <span
-                                id="toggle-line-3"
-                                className="flex w-8 bg-black h-1 transition-all duration-300 rounded-md"
+                            <span className={`block w-6 h-1 bg-black transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-[8px]" : ""}`}
                             ></span>
-                        </button>
+                        </div>
+
                     </div>
                 </div>
             </div>
-
             <div className="w-full mt-[7px] border-t-2 border-b-2 border-solid border-black">
                 <div className="max-w-[561px] justify-center items-center flex mx-auto">
-                    {['about', 'minting', 'roadmap', 'team', 'faq'].map((link, i) => (
+                    {['about us', 'minting', 'roadmap', 'team', 'faq'].map((link, index) => (
                         <a
-                            key={i}
+                            key={index}
                             className="px-6 border-x-2 uppercase hover:bg-black hover:text-white transition-all duration-300 whitespace-nowrap max-md:text-sm max-sm:text-xs border-solid py-[7px] max-sm:py-1 max-sm:px-2 border-black"
                             href={`#${link}`}
                         >
-                            {link === 'faq' ? 'FAQs' : link.charAt(0).toUpperCase() + link.slice(1)}
+                            {link} 
                         </a>
                     ))}
                 </div>
             </div>
+
         </div>
     );
 };
 
 export default Header;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
