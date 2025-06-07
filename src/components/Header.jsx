@@ -20,9 +20,9 @@ const Header = () => {
                 <div className="flex w-full justify-end items-center">
                     <div className="max-w-[658px] max-sm:flex w-full">
                         <div className="w-full flex items-center justify-between">
-                            <p className="font-modernofb text-2xl max-md:text-xl" href="/">
+                            <a className="font-modernofb text-2xl max-md:text-xl" href="/">
                                 Hustlin' Hardos
-                            </p>
+                            </a>
                              <div
                                 className={`flex gap-5 transition-all duration-300 items-center max-sm:gap-4 ${menuOpen ? 'max-sm:left-0' : 'max-sm:left-full'} max-sm:z-40 max-sm:fixed max-sm:flex-col max-sm:w-full max-sm:h-full max-sm:justify-center max-sm:items-center max-sm:bg-white max-sm:top-0`}>
                                 <div className="flex gap-[18px] max-sm:flex-col max-sm:gap-4 items-center"> 
