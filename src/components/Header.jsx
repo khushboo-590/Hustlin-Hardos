@@ -20,7 +20,7 @@ const Header = () => {
                 <div className="flex w-full justify-end items-center">
                     <div className="max-w-[658px] max-sm:flex w-full">
                         <div className="w-full flex items-center justify-between">
-                            <p className="font-modernofb text-2xl max-md:text-xl">
+                            <p className="font-modernofb text-2xl max-md:text-xl" href="/">
                                 Hustlin' Hardos
                             </p>
                              <div
