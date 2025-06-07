@@ -20,13 +20,13 @@
   font-family: "modernofb";
 }
 
-
-html,body {
+body,
+html {
   scroll-behavior: smooth !important;
 }
 
 body {
-  background-image: url("./assets/images/png/bg-image.webp");
+  background-image: url("./assets/images/png/bg-image.png");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Noto Serif", serif;
@@ -49,9 +49,34 @@ body {
   animation-play-state: running;
 }
 
+.roadmap-arrow::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 2px;
+  bottom: 1px;
+  left: -0.5px;
+  transform: rotate(-45deg) translateY(-1px);
+  background-color: black;
+}
+
+.roadmap-arrow::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 2px;
+  bottom: 1px;
+  left: -7.3px;
+  transform: rotate(45deg) translateY(-1px);
+  background-color: black;
+}
+
 .text-shadow {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .text-stoke{
   -webkit-text-stroke: 1px #000;
+}
+.team-shadow{
+  text-shadow: -1px -1px 1px #0000004D, 1px 1px 1px #FFFFFF;
 }

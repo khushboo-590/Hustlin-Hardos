@@ -42,13 +42,13 @@ const LatestTweets = () => {
                         {latestTweets.map((obj, index) => (
                             <SwiperSlide
                                 key={index}
-                                className="swiper-slide px-[25px] h-full border-r-2  border-solid border-black py-[20px] sm:py-[47px] min-h-[257px] max-w-[375px]"          >
-                                <h4 className="font-semibold text-4xl leading-[111%] font-noto">{obj.title}</h4>
+                                className="swiper-slide px-[25px] h-full border-r-2  border-solid border-black py-[20px] sm:py-[30px] md:py-[47px] min-h-[230px] md:min-h-[257px] max-w-[381px] "          >
+                                <h4 className="font-semibold text-4xl leading-[111%] ">{obj.title}</h4>
                                 <div className="flex gap-[11px] py-3 items-center">
                                     <img src={twitterIcon} alt="twitter" />
                                     <p className="text-sm">{obj.date}</p></div>
-                                <Discripition content={obj.desc} myClass="max-sm:text-sm pb-[15px] leading-[100%] font-noto" />
-                                <a href="/" className="hover:underline text-sm font-noto">Read More...</a>
+                                <Discripition content={obj.desc} myClass="max-sm:text-sm sm:pb-[15px] pb-[8px] leading-[100%] " />
+                                <a href="/" className="hover:underline text-sm ">Read More...</a>
                             </SwiperSlide>))}
                     </Swiper>
                 </div>

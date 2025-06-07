@@ -3,7 +3,8 @@ import discordIcon from '../assets/images/svg/discord.svg';
 import twitterIcon from '../assets/images/svg/twitter.svg';
 import instagramIcon from '../assets/images/svg/insta.svg';
 import mediumIcon from '../assets/images/svg/m.svg';
-import openseaIcon from '../assets/images/svg/ship.svg';
+import openseaIcon from '../assets/images/svg/opensea.svg';
+
 export const latestTweets = [
     {
         title: "Etiam eget",
@@ -32,7 +33,7 @@ export const latestTweets = [
     },
 ];
 
-export const sateData = [
+export const stateData = [
     { title: "Etiam eget", value: 42 },
     { title: "Tristique.", value: 42 },
     { title: "Aliquet ac.", value: 42 },

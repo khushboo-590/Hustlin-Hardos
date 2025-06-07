@@ -23,7 +23,7 @@ function App() {
       <LatestTweets/>
       <Minting />
       <MintingState/>
-      {/* <Roadmap/>  */}
+      <Roadmap/> 
       <Team/>
       <Faqs />
       <Footer />
