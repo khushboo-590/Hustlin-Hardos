@@ -49,28 +49,6 @@ body {
   animation-play-state: running;
 }
 
-.roadmap-arrow::after {
-  position: absolute;
-  content: "";
-  width: 10px;
-  height: 2px;
-  bottom: 1px;
-  left: -0.5px;
-  transform: rotate(-45deg) translateY(-1px);
-  background-color: black;
-}
-
-.roadmap-arrow::before {
-  position: absolute;
-  content: "";
-  width: 10px;
-  height: 2px;
-  bottom: 1px;
-  left: -7.3px;
-  transform: rotate(45deg) translateY(-1px);
-  background-color: black;
-}
-
 .text-shadow {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }

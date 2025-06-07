@@ -13,33 +13,33 @@ const Roadmap = () => {
                 <Heading title="RoadMap" />
             </div>
             <div className="border-b-2 border-black w-full"></div>
-            <div className="relative flex flex-col items-center container max-w-[1172px] mx-auto  pl-4 border-x-2  lg:pt-[99px] pt-10 xl:pb-[300px] lg:pb-[120px] md:pb-[40px] pb-8">
-                <div className="absolute top-0   xl:h-[1850px] lg:h-[1900px] md:h-[1390px] sm:h-[1300px]  md:left-[20px]  left-[2%] lg:left-1/2 lg:-translate-x-1/2 z-[-1]">
+            <div className="relative flex flex-col items-center container max-w-[1172px] mx-auto  pl-4 lg:border-x-2  lg:pt-[99px] pt-10 xl:pb-[300px] lg:pb-[120px] md:pb-[40px] pb-8">
+                <div className="absolute top-0   xl:h-[1850px] lg:h-[1900px]  md:h-[1360px] sm:h-[1100px]  md:left-[20px]  left-[2%] lg:left-1/2 lg:-translate-x-1/2 z-[-1]">
                     <img
                         src={downArrow}
                         alt="down-arrow"
                         className="w-4 h-full lg:mt-[150px] mt-10 xl:mr-3" />
                 </div>
-                {roadMap.map((item, index) => (
+                {roadMap.map((obj, index) => (
                     <div
                         key={index}
                         className={`flex w-full items-start mb-2 md:mb-5 ${index % 2 === 0 ? 'lg:justify-end' : 'justify-start'}`}>                        <div
                             className={`relative lg:w-1/2 w-full flex flex-col  pl-8 sm:pl-3 md:pl-20
                             ${index % 2 === 0
-                                    ? 'justify-end lg:pl-[75px] md:pl-3 max-lg:pb-8 max-md:pb-3'
+                                ? 'justify-end lg:pl-9 lg:pr-[30px]  pl-8 sm:pl-3  max-lg:pb-8 max-md:pb-3'
                                     : 'justify-start lg:pr-[75px] md:pr-5 lg:pl-9 md:pl-20 max-lg:pb-8 max-md:pb-7 pl-8 sm:pl-3'
                                 }`}>
-                            <p className="md:text-sm text-xs font-normal mb-2">{item.phase}</p>
+                            <p className="md:text-sm text-xs font-normal mb-2">{obj.phase}</p>
                             <h2 className="lg:text-4xl md:text-3xl text-lg leading-[110%] font-semibold sm:mb-2 mb-1">
-                                {item.title}
+                                {obj.title}
                             </h2>
                             <Discripition myClass="text-black font-normal lg:text-base text-sm md:pr-2"
-                                content={item.description}
+                                content={obj.description}
                             />
                         </div>
                         <div
                             className=" w-11 h-[39px] md:w-14 md:h-14  bg-white border-2 border-black rounded-full flex items-center justify-center  text-lg font-bold absolute 
-                           lg:left-1/2 lg:-translate-x-1/2  md:left-[10px]  left-[2%]">
+                           lg:left-1/2 lg:-translate-x-1/2  md:left-[10px]  left-[0%]">
                             <img
                                 src={roadmapIcon}
                                 alt="roadmap-icon"
