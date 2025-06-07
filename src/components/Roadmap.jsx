@@ -1,7 +1,6 @@
-
 import React from 'react';
 import downArrow from '../assets/images/svg/roadmaparrow.svg';
-import roadmapIcon from '../assets/images/svg/road-map-dots.svg';
+import roadmapIcon from '../assets/images/png/iocnroadmap.png';
 import { roadMap } from '../utils/helper.';
 import Heading from './common/Heading';
 import Discripition from './common/Discripition';
@@ -13,8 +12,8 @@ const Roadmap = () => {
                 <Heading title="RoadMap" />
             </div>
             <div className="border-b-2 border-black w-full"></div>
-            <div className="relative flex flex-col items-center container max-w-[1172px] mx-auto  pl-4 lg:border-x-2  lg:pt-[99px] pt-10 xl:pb-[300px] lg:pb-[120px] md:pb-[40px] pb-8">
-                <div className="absolute top-0   xl:h-[1850px] lg:h-[1900px]  md:h-[1360px] sm:h-[1100px]  md:left-[20px]  left-[2%] lg:left-1/2 lg:-translate-x-1/2 z-[-1]">
+            <div className="relative flex flex-col items-center  max-w-[1172px] mx-auto  pl-4 lg:border-x-2  lg:pt-[99px] pt-10 xl:pb-[300px] lg:pb-[120px] md:pb-[40px] pb-8">
+                <div className="absolute top-0   xl:h-[1850px] lg:h-[1900px]  md:h-[1360px] sm:h-[1100px]  md:left-[20px]  eft-[2%] lg:left-1/2  translate-x-1/2 lg:-translate-x-1/2 z-[-1]">
                     <img
                         src={downArrow}
                         alt="down-arrow"
@@ -39,7 +38,7 @@ const Roadmap = () => {
                         </div>
                         <div
                             className=" w-11 h-[39px] md:w-14 md:h-14  bg-white border-2 border-black rounded-full flex items-center justify-center  text-lg font-bold absolute 
-                           lg:left-1/2 lg:-translate-x-1/2  md:left-[10px]  left-[0%]">
+                           lg:left-1/2 lg:-translate-x-1/2  md:left-[0]  translate-x-1/2  left-[0%]">
                             <img
                                 src={roadmapIcon}
                                 alt="roadmap-icon"

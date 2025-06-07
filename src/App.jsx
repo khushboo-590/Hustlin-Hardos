@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './App.css'
 import HustlinHrdoos from './components/HustlinHrdoos'
 import BreakingNews from './components/BreakingNews'
@@ -15,7 +14,6 @@ import Header from './components/Header'
 import BackToTop from './components/common/BackToTop'
 
 function App() {
-
   return (
     <>
        <Marque />
@@ -25,13 +23,11 @@ function App() {
       <LatestTweets/>
       <Minting />
       <MintingState/>
-      <Roadmap/> 
+      {/* <Roadmap/>  */}
       <Team/>
       <Faqs />
       <Footer />
-      <BackToTop/>
-     
-      
+      <BackToTop/>     
     </>
   )
 }

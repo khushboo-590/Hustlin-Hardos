@@ -12,9 +12,9 @@ import Heading from './common/Heading';
 const LatestTweets = () => {
     return (
         <div className="pt-[89px] max-xl:pt-[60px] max-lg:pt-10">
-            <div className="max-w-[1172px] px-4 mx-auto w-full flex items-center justify-between pb-[90px] max-xl:pb-[60px] max-lg:pb-10">
+            <div className="max-w-[1140px]  mx-auto w-full flex items-center justify-between pb-[90px] max-xl:pb-[60px] max-lg:pb-10">
                 <Heading title="Latest Tweets" myClass="uppercase " />
-                <div className="flex items-center gap-14 max-md:gap-5 lg:pt-5 md:pt-2">
+                <div className="flex items-center gap-14 max-md:gap-5 lg:pt-5 md:pt-2 px-4">
                     <button className="cursor-pointer  latest-prev">
                         <img src={sliderArrow} alt="SliderArrow" className="max-sm:w-[15px] max-sm:h-[25px]" /></button>
                     <button className="cursor-pointer latest-next rotate-180">

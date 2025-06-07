@@ -20,8 +20,8 @@
   font-family: "modernofb";
 }
 
-.body,
-html {
+
+html,body {
   scroll-behavior: smooth !important;
 }
 

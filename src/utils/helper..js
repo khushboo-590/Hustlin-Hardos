@@ -1,5 +1,9 @@
 import teamImg from '../assets/images/png/team-img.png'
-
+import discordIcon from '../assets/images/svg/discord.svg';
+import twitterIcon from '../assets/images/svg/twitter.svg';
+import instagramIcon from '../assets/images/svg/insta.svg';
+import mediumIcon from '../assets/images/svg/m.svg';
+import openseaIcon from '../assets/images/svg/ship.svg';
 export const latestTweets = [
     {
         title: "Etiam eget",
@@ -77,13 +81,13 @@ export const roadMap = [
         description: "Building a wardrobe app where you can secondary sales",
     },
 ];
-  
+
 export const teamMembers = [
     {
         name: "Executive Hardo",
         description:
             "Crypto startup executive, former VC Investor (US$ 1B+ AuM), former MBB Consultant",
-        image:teamImg ,
+        image: teamImg,
         textColor: "text-brown",
     },
     {
@@ -108,7 +112,7 @@ export const teamMembers = [
         textColor: "text-gray",
     },
 ];
- 
+
 export const marqueData = [
     { title: "S&P", value: "-1.01%", color: "text-custom-red" },
     { title: "Shanghai", value: "+0.87%", color: "text-custom-yellow" },
@@ -127,22 +131,30 @@ export const marqueData = [
     { title: "AXD 100", value: "+0.13%", color: "text-custom-yellow" },
     { title: "Euro/Dollar", value: "+0.02%", color: "text-custom-yellow" },
 ];
-  
-export const faqsList = [
-    { title: "What is an NFT?" },
-    { title: "How much is a Hustlin' Hardo NFT?" },
-    { title: "Where can I mint a Hustlin' Hardos NFT?" },
-    { title: "How do I mint a Hustlin' Hardo NFT?" },
-    { title: "How many Hustlin' Hardos NFTs will there be?", },
-    { title: "What is the utility and functionality of a Hustlin' Hardo NFT?" },
-];
-  
 
- export const navLinks = [
+export const faqsList = [
+    "What is an NFT?",
+    "How do I get an NFT ?",
+    "How much is a Hustlin' Hardo NFT?",
+    "Where can I mint a Hustlin' Hardos NFT?",
+    "How do I mint a Hustlin' Hardo NFT?",
+    "How many Hustlin' Hardos NFTs will there be?",
+    "What is the utility and functionality of a Hustlin' Hardo NFT?",
+];
+
+
+export const navLinks = [
     { title: 'about us', link: 'about' },
     { title: 'minting', link: 'minting' },
     { title: 'roadmap', link: 'roadmap' },
     { title: 'team', link: 'team' },
     { title: 'faq', link: 'faq' },
 ];
-  
+
+export const socialLinks = [
+    { icon: discordIcon, link: "https://discord.com/invite/yourserver" },
+    { icon: twitterIcon, link: "https://twitter.com/yourhandle" },
+    { icon: instagramIcon, link: "https://instagram.com/yourprofile" },
+    { icon: mediumIcon, link: "https://medium.com/@yourprofile" },
+    { icon: openseaIcon, link: "https://opensea.io/yourcollection" },
+];
