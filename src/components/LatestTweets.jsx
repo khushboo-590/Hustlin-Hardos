@@ -2,12 +2,12 @@ import React from 'react';
 import twitterIcon from '../assets/images/svg/twiiter.svg';
 import sliderArrow from '../assets/images/svg/silde-arrow.svg';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation} from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 import { latestTweets } from '../utils/helper.';
 import 'swiper/css';
-import Discripition from './common/Discripition';
+import Description from './common/Description';
 import Heading from './common/Heading';
-    
+
 
 const LatestTweets = () => {
     return (
@@ -22,7 +22,7 @@ const LatestTweets = () => {
                 </div>
             </div>
             <div className="border-y-2 border-solid border-black  ">
-               <div className="max-w-[1140px] max-xl:px-4 mx-auto border-l-2">
+                <div className="max-w-[1140px] max-xl:px-4 mx-auto border-l-2">
                     <Swiper
                         spaceBetween={0}
                         slidesPerView={1}
@@ -47,7 +47,7 @@ const LatestTweets = () => {
                                 <div className="flex gap-[11px] py-3 items-center">
                                     <img src={twitterIcon} alt="twitter" />
                                     <p className="text-sm">{obj.date}</p></div>
-                                <Discripition content={obj.desc} myClass="max-sm:text-sm sm:pb-[15px] pb-[8px] leading-[100%] " />
+                                <Description content={obj.desc} myClass="max-sm:text-sm sm:pb-[15px] pb-[8px] leading-[100%] " />
                                 <a href="/" className="hover:underline text-sm ">Read More...</a>
                             </SwiperSlide>))}
                     </Swiper>

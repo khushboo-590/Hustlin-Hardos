@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import manImg from '../assets/images/png/man-img.png'
-import Discripition from './common/Discripition';
+import Description from './common/Description';
 import Heading from './common/Heading';
 
 const Minting = () => {
@@ -21,7 +21,7 @@ const Minting = () => {
                         <div className="w-full flex justify-center max-lg:flex-col max-lg:py-5 max-lg:gap-3 items-center">
                             <div className="max-w-[570px] max-lg:max-w-[unset] px-[25px] max-lg:px-0 w-full">
                                 <div className="max-w-[438px] max-lg:max-w-[unset]">
-                                    <Discripition myClass="leading-[150%] lg:max-w-[438px] pb-[15px] max-xl:pb-3 max-lg:pb-2 max-md:text-sm"
+                                    <Description myClass="leading-[150%] lg:max-w-[438px] pb-[15px] max-xl:pb-3 max-lg:pb-2 max-md:text-sm"
                                         content="Most of the Hustlin’ Hardos first experienced NFTs via other successful projects like NBA TopShot, where revealing your newly minted item invoked the same emotions as opening up that first pack of baseball cards. NFTs have allowed us to enjoy those feelings once again while also empowering communities through shared ownership. The space has seen incredible growth over the past year, and it is our belief that we are in the very early innings of the paradigm shift that will be powered by web3." />
                                     <div className="min-h-[49px] border-2 mt-[15px] border-solid flex border-black max-sm:max-w-[170px] max-w-[238px]  ">
                                         <button
@@ -39,12 +39,12 @@ const Minting = () => {
                             <img
                                 src={manImg}
                                 alt="man-img"
-                                className="max-w-[570px] pointer-events-none max-lg:border-none max-lg:max-w-[unset] max-lg:w-full border-l-2 border-solid border-black"     />
+                                className="max-w-[570px] pointer-events-none max-lg:border-none max-lg:max-w-[unset] max-lg:w-full border-l-2 border-solid border-black" />
                         </div>
                     </div>
                 </div>
-                </div>     
-            </div>    
-        );
-    };
+            </div>
+        </div>
+    );
+};
 export default Minting;

@@ -1,14 +1,14 @@
 
 import React from "react";
 import { roadMap } from "../utils/helper.";
-import Discripition from "./common/Discripition";
+import Description from "./common/Description";
 import Heading from "./common/Heading";
 
 const Roadmap = () => {
     return (
         <div id="roadmap">
             <div className="pt-22 max-xl:pt-[60px] max-lg:pt-10 ">
-                <div className="max-w-[1172px] px-4 mx-auto w-full pb-[89px] max-xl:pb-[60px] max-lg:pb-10">
+                <div className="max-w-[1140px] mx-auto w-full pb-[89px] max-xl:pb-[60px] max-lg:pb-10">
                     <Heading title="RoadMap" />
                 </div>
             </div>
@@ -27,11 +27,11 @@ const Roadmap = () => {
                                 <p className="font-semibold max-w-[460px] text-4xl max-md:text-xl leading-[111%] pb-3 max-lg:pb-2 max-md:pb-1.5">
                                     {obj.title}
                                 </p>
-                                <Discripition content={obj.description}
+                                <Description content={obj.description}
                                     myClass={`max-lg:text-sm ${index === 0 || index === 2 || index === 4 || index === 6
                                         ? "xl:!max-w-[495px] !leading-[120%] max-lg:!leading-[100%]"
-                                        : "xl:!max-w-[460px] !leading-[111%] max-lg:!leading-[100%]"}`}/>
-                              </div>
+                                        : "xl:!max-w-[460px] !leading-[111%] max-lg:!leading-[100%]"}`} />
+                            </div>
                         ))}
                     </div>
                 </div>

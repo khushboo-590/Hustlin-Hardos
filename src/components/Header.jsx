@@ -12,7 +12,7 @@ const Header = () => {
     };
 
     return (
-        <div className="py-2 ">
+        <div className="pt-2 ">
             <div className="container max-xl:px-4 max-w-[1140px] w-full mx-auto">
                 <div className="flex w-full justify-end items-center">
                     <div className="max-w-[658px] max-sm:flex w-full">
