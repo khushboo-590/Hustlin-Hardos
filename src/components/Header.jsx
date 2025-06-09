@@ -52,20 +52,15 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full mt-[7px] border-t-2 border-b-2 border-solid border-black">
-                <div className="max-w-[561px] mx-auto flex justify-center items-center border-l-2 ">
-                    {navLinks.map((obj, index) => (
-                        <a
-                            key={index}
-                            href={`#${obj.link}`}
-                            className="px-6 border-r-2 uppercase hover:bg-black hover:text-white transition-all duration-300 whitespace-nowrap max-md:text-sm max-sm:text-xs border-black py-[7px] max-sm:py-1 max-sm:px-2  text-black">
-                            {obj.title}
-                        </a>
-                    ))}
+                <div className="w-full mt-[15px] border-t-2 border-b-2 border-solid border-black">
+                    <div className="max-w-[561px] justify-center items-center flex mx-auto">
+                        {navLinks.map((obj, index) => (
+                            <a key={index} className={`px-6 uppercase hover:bg-black hover:text-white transition-all duration-300 whitespace-nowrap max-md:text-sm max-sm:text-xs border-solid py-[7px] max-sm:py-1 max-sm:px-2 border-black ${index === 0 ? 'border-x-2' : 'border-r-2'}`}
+                                href={obj.link}> {obj.title}
+                            </a>
+                        ))}</div>
                 </div>
             </div>
-
-        </div>
     );
 };
 
