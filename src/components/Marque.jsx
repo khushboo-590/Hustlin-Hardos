@@ -20,5 +20,4 @@ const Marque = () => {
         </div>
     );
 };
-
 export default Marque;

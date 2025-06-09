@@ -33,8 +33,7 @@ const Header = () => {
                                     ))}
                                 </div>
                                 <button
-                                    className="px-4 py-2 uppercase text-sm font-semibold border-2 border-black bg-yellow-400 text-black hover:text-white hover:bg-black transition duration-300 cursor-pointer"
-                                >
+                                    className="px-4 py-2 uppercase text-sm font-semibold border-2 border-black bg-yellow-400 text-black hover:text-white hover:bg-black transition duration-300 cursor-pointer">
                                     Connect Wallet
                                 </button>
                             </div>

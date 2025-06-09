@@ -14,5 +14,4 @@ const HustlinHardos = () => {
         </div>
     );
 };
-
 export default HustlinHardos;

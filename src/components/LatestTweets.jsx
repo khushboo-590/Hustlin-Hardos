@@ -8,7 +8,6 @@ import 'swiper/css';
 import Description from './common/Description';
 import Heading from './common/Heading';
 
-
 const LatestTweets = () => {
     return (
         <div className="pt-[89px] max-xl:pt-[60px] max-lg:pt-10">
