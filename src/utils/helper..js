@@ -144,6 +144,6 @@ export const socialLinks = [
     { icon: discordIcon, link: "https://discord.com/invite/yourserver" },
     { icon: twitterIcon, link: "https://twitter.com/yourhandle" },
     { icon: instagramIcon, link: "https://instagram.com/yourprofile" },
-    { icon: mediumIcon, link: "https://medium.com/@yourprofile" },
+    { icon: mediumIcon, link: "https://medium.com/" },
     { icon: openseaIcon, link: "https://opensea.io/yourcollection" },
 ];
