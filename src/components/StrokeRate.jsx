@@ -1,12 +1,12 @@
 import React from 'react';
-import { StrokeRateData } from '../utils/helper.';
+import { strokeRateData } from '../utils/helper.';
 
 const StrokeRate = () => {
     return (
         <div className="bg-black overflow-hidden py-[14px]">
             <div className="max-w-[1920px] mx-auto">
                 <div className="flex text-white whitespace-nowrap animate-marquee">
-                    {StrokeRateData.map((obj, index) => (
+                    {strokeRateData.map((obj, index) => (
                         <div
                             key={index}
                             className="flex items-center mx-8 lg:mx-6 md:mx-4">

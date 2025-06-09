@@ -32,6 +32,7 @@ const Team = () => {
                         modules={[Navigation]}
                         navigation={{ nextEl: ".team-next", prevEl: ".team-prev" }}
                         slidesPerView={1}
+                        loop={true}
                         breakpoints={{
                             768: { slidesPerView: 1 },
                             1024: { slidesPerView: 2 },

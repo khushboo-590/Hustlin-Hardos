@@ -102,7 +102,7 @@ export const teamMembers = [
     },
 ];
 
-export const StrokeRateData = [
+export const strokeRateData = [
     { title: "S&P", value: "-1.01%", color: "text-custom-red" },
     { title: "Shanghai", value: "+0.87%", color: "text-custom-yellow" },
     { title: "FTSE 100", value: "+0.13%", color: "text-custom-yellow" },
