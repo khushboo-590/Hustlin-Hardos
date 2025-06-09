@@ -32,7 +32,7 @@ const Minting = () => {
                                             onClick={handleIncrease}
                                             className="text-4xl cursor-pointer max-md:text-3xl px-6 max-sm:px-3 max-sm:text-2xl font-semibold font-noto">+</button></div>
                                 </div>
-                                <button className="py-[9.5px] px-4 max-sm:py-2 text-sm uppercase font-noto max-sm:px-3 box-border transition-all hover:text-white duration-700 hover:shadow-[160px_0_0_0_#000_inset] my-[35.5px] cursor-pointer font-semibold border-2 border-black bg-[#FFD600] text-black">Mint NOW</button>
+                                <button className="py-[9.5px] px-4 max-sm:py-2 text-sm uppercase font-noto max-sm:px-3 box-border transition hover:text-white duration-300 hover my-[35.5px] cursor-pointer font-semibold border-2 bg-yellow-400 text-black  hover:bg-black">Mint NOW</button>
                                 <p className="text-lg font-semibold leading-[100%] text-[#00A106] font-noto">Time Left</p>
                                 <p className="text-[#FF0000] text-4xl leading-[100%] font-noto">40:15:12:10</p>
                             </div>
