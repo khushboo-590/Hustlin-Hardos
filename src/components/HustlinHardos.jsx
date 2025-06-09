@@ -1,6 +1,6 @@
 import heroImg from '../assets/images/png/hero-img.png'
 import React from "react";
-const HustlinHrdoos = () => {
+const HustlinHardos = () => {
     return (
         <div className="max-w-[1920px] mx-auto overflow-hidden ">
             <div className="px-4">
@@ -15,4 +15,4 @@ const HustlinHrdoos = () => {
     );
 };
 
-export default HustlinHrdoos;
+export default HustlinHardos;
