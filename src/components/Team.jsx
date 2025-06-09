@@ -14,7 +14,7 @@ const Team = () => {
         <div id="team">
             <div className="max-w-[1140px]  mx-auto w-full flex items-center justify-between pt-22 pb-[89px] max-xl:py-[60px] max-lg:py-10">
                 <Heading title="Team" />
-                <div className="flex items-center gap-14 max-md:gap-5 lg:pt-5 md:pt-2">
+                <div className="flex items-center gap-14 max-md:gap-5 lg:pt-5 md:pt-2 px-4 lg:px-0">
                     <button className="cursor-pointer team-prev ">
                         <img
                             className="max-sm:w-[17px] max-sm:h-[30px]"
