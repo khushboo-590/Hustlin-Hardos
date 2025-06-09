@@ -7,11 +7,11 @@ import MintingState from './components/MintingState'
 import Roadmap from './components/Roadmap'
 import Team from './components/Team'
 import Faqs from './components/Faqs'
-import Footer from './components/Footer'
 import Header from './components/Header'
 import BackToTop from './components/common/BackToTop'
 import HustlinHardos from './components/HustlinHardos'
 import StrokeRate from './components/StrokeRate'
+import Footer from  './components/Footer'
 
 function App() {
   return (
@@ -26,8 +26,8 @@ function App() {
       <Roadmap/> 
       <Team/>
       <Faqs />
-      <Footer />
-      <BackToTop/>     
+      <Footer/>
+     <BackToTop/>     
     </>
   )
 }
