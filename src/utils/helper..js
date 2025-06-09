@@ -1,6 +1,6 @@
 import teamImg from '../assets/images/png/team-img.png'
 import discordIcon from '../assets/images/svg/discord.svg';
-import twitterIcon from '../assets/images/svg/twitter.svg';
+import twitterIcon from '../assets/images/svg/black-twitter.svg';
 import instagramIcon from '../assets/images/svg/insta.svg';
 import mediumIcon from '../assets/images/svg/m.svg';
 import openseaIcon from '../assets/images/svg/opensea.svg';
@@ -9,35 +9,35 @@ export const latestTweets = [
     {
         title: "Etiam eget",
         date: "23/02/2022",
-        desc: "Diam tellus arcu, amet ornare nulla ut scelerisque et. Cum porta ultrices quam in.",
+        description: "Diam tellus arcu, amet ornare nulla ut scelerisque et. Cum porta ultrices quam in.",
     },
     {
         title: "Venenatis.",
         date: "22/02/2022",
-        desc: "Tortor dolor ultrices mauris aliquam feugiat amet ultrices facilisi. Venenatis.",
+        description: "Tortor dolor ultrices mauris aliquam feugiat amet ultrices facilisi. Venenatis.",
     },
     {
         title: "Quis vulputate.",
         date: "20/02/2022",
-        desc: "Vestibulum at gravida amet ullamcorper a ipsum laoreet tortor. Et tortor vel arcu ac.",
+        description: "Vestibulum at gravida amet ullamcorper a ipsum laoreet tortor. Et tortor vel arcu ac.",
     },
     {
         title: "Venenatis.",
         date: "22/02/2022",
-        desc: "Tortor dolor ultrices mauris aliquam feugiat amet ultrices facilisi. Venenatis.",
+        description: "Tortor dolor ultrices mauris aliquam feugiat amet ultrices facilisi. Venenatis.",
     },
     {
         title: "Quis vulputate.",
         date: "20/02/2022",
-        desc: "Vestibulum at gravida amet ullamcorper a ipsum laoreet tortor. Et tortor vel arcu ac.",
+        description: "Vestibulum at gravida amet ullamcorper a ipsum laoreet tortor. Et tortor vel arcu ac.",
     },
 ];
 
 export const stateData = [
-    { title: "Etiam eget", value: 42 },
-    { title: "Tristique.", value: 42 },
-    { title: "Aliquet ac.", value: 42 },
-    { title: "Tincidunt.", value: 42 },
+    "Etiam eget",
+    "Tristique",
+    "Aliquet ac",
+    "Tincidunt",
 ];
 
 export const roadMap = [
@@ -86,35 +86,23 @@ export const roadMap = [
 export const teamMembers = [
     {
         name: "Executive Hardo",
-        description:
-            "Crypto startup executive, former VC Investor (US$ 1B+ AuM), former MBB Consultant",
-        image: teamImg,
-        textColor: "text-brown",
+        description: "Crypto startup executive, former VC Investor (US$ 1B+ AuM), former MBB Consultant",
     },
     {
         name: "Johnny Banjo",
-        description:
-            "The Hustlin’ Hardos have arrived to the metaverse! 9,999 Hardos have taken over. Lorem Ipsum is simply dummy text of the printing industry.",
-        image: teamImg,
-        textColor: "text-gray",
+        description: "The Hustlin’ Hardos have arrived to the metaverse! 9,999 Hardos have taken over. Lorem Ipsum is simply dummy text of the printing industry.",
     },
     {
         name: "Executive Hardo",
-        description:
-            "Crypto startup executive, former VC Investor (US$ 1B+ AuM), former MBB Consultant",
-        image: teamImg,
-        textColor: "text-brown",
+        description: "Crypto startup executive, former VC Investor (US$ 1B+ AuM), former MBB Consultant",
     },
     {
         name: "Johnny Banjo",
-        description:
-            "The Hustlin’ Hardos have arrived to the metaverse! 9,999 Hardos have taken over. Lorem Ipsum is simply dummy text of the printing industry.",
-        image: teamImg,
-        textColor: "text-gray",
+        description: "The Hustlin’ Hardos have arrived to the metaverse! 9,999 Hardos have taken over. Lorem Ipsum is simply dummy text of the printing industry.",
     },
 ];
 
-export const marqueData = [
+export const StrokeRateData = [
     { title: "S&P", value: "-1.01%", color: "text-custom-red" },
     { title: "Shanghai", value: "+0.87%", color: "text-custom-yellow" },
     { title: "FTSE 100", value: "+0.13%", color: "text-custom-yellow" },

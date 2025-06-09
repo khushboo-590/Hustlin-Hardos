@@ -15,7 +15,7 @@ const Minting = () => {
         <div id="minting" >
             <div className="pt-[89px] max-xl:pt-[60px] max-lg:pt-10">
                 <div className="max-w-[1140px]  mx-auto w-full flex items-center justify-between pb-[90px] max-xl:pb-[60px] max-lg:pb-10">
-                    <Heading title="minting" myClass="uppercase " /></div>
+                    <Heading title="Minting" /></div>
                 <div className="border-y-2 border-solid max-xl:px-4 border-black">
                     <div className="max-w-[1140px] max-lg:border-none mx-auto border-x-2 border-solid border-black container">
                         <div className="w-full flex justify-center max-lg:flex-col max-lg:py-5 max-lg:gap-3 items-center">
@@ -26,15 +26,15 @@ const Minting = () => {
                                     <div className="min-h-[49px] border-2 mt-[15px] border-solid flex border-black max-sm:max-w-[170px] max-w-[238px]  ">
                                         <button
                                             onClick={handleDecrease}
-                                            className="text-4xl cursor-pointer max-md:text-3xl px-6 max-sm:px-3 max-sm:text-2xl font-semibold font-noto">-</button>
+                                            className="text-4xl cursor-pointer max-md:text-3xl px-6 max-sm:px-3 max-sm:text-2xl font-semibold items-center justify-center mb-1 ">-</button>
                                         <p className="min-w-[109px] max-sm:min-w-24 border-x-2 border-solid border-black flex justify-center items-center text-4xl max-md:text-3xl px-6 max-sm:px-4 max-sm:text-2xl font-semibold font-noto">{count}</p>
                                         <button
                                             onClick={handleIncrease}
-                                            className="text-4xl cursor-pointer max-md:text-3xl px-6 max-sm:px-3 max-sm:text-2xl font-semibold font-noto">+</button></div>
+                                            className="text-4xl cursor-pointer max-md:text-3xl px-6 max-sm:px-3 max-sm:text-2xl font-semibold ">+</button></div>
                                 </div>
-                                <button className="py-[9.5px] px-4 max-sm:py-2 text-sm uppercase font-noto max-sm:px-3 box-border transition hover:text-white duration-300 hover my-[35.5px] cursor-pointer font-semibold border-2 bg-yellow-400 text-black  hover:bg-black">Mint NOW</button>
-                                <p className="text-lg font-semibold leading-[100%] text-[#00A106] font-noto">Time Left</p>
-                                <p className="text-[#FF0000] text-4xl leading-[100%] font-noto">40:15:12:10</p>
+                                <button className="py-[9.5px] px-4 max-sm:py-2 text-sm uppercase  max-sm:px-3 box-border transition hover:text-white duration-300 hover my-[35.5px] cursor-pointer font-semibold border-2 bg-yellow-400 text-black  hover:bg-black">Mint NOW</button>
+                                <p className="text-lg font-semibold leading-[100%] text-[#00A106] ">Time Left</p>
+                                <p className="text-[#FF0000] text-4xl leading-[100%] ">40:15:12:10</p>
                             </div>
                             <img
                                 src={manImg}

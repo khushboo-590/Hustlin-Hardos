@@ -1,12 +1,12 @@
 import React from 'react';
-import { marqueData } from '../utils/helper.';
+import { StrokeRateData } from '../utils/helper.';
 
-const Marque = () => {
+const StrokeRate = () => {
     return (
         <div className="bg-black overflow-hidden py-[14px]">
             <div className="max-w-[1920px] mx-auto">
                 <div className="flex text-white whitespace-nowrap animate-marquee">
-                    {marqueData.map((obj, index) => (
+                    {StrokeRateData.map((obj, index) => (
                         <div
                             key={index}
                             className="flex items-center mx-8 lg:mx-6 md:mx-4">
@@ -20,4 +20,4 @@ const Marque = () => {
         </div>
     );
 };
-export default Marque;
+export default StrokeRate;
