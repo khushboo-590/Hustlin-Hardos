@@ -11,7 +11,7 @@ import Header from './components/Header'
 import BackToTop from './components/common/BackToTop'
 import HustlinHardos from './components/HustlinHardos'
 import StrokeRate from './components/StrokeRate'
-import Footer from  './components/Footer'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
       <Minting />
       <MintingState/>
       <Roadmap/> 
-      <Team/>
+      <Team />
       <Faqs />
       <Footer/>
      <BackToTop/>     
